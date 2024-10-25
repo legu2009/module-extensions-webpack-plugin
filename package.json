@@ -1,0 +1,18 @@
+{
+    "name": "module-extensions-webpack-plugin",
+    "version": "1.0.0",
+    "description": "module extensions plugin for Webpack",
+    "license": "MIT",
+    "repository": "module-extensions-webpack-plugin",
+    "author": "legu2009",
+    "homepage": "https://github.com/legu2009/module-extensions-webpack-plugin",
+    "bugs": "https://github.com/legu2009/module-extensions-webpack-plugin",
+    "main": "index.js",
+    "scripts": {
+    },
+    "keywords": [
+      "module-extensions",
+      "module-extension",
+      "webpack-plugin"
+    ]
+  }
