@@ -1,6 +1,6 @@
 {
     "name": "module-extensions-webpack-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "module extensions plugin for Webpack",
     "license": "MIT",
     "repository": "module-extensions-webpack-plugin",
@@ -9,6 +9,7 @@
     "bugs": "https://github.com/legu2009/module-extensions-webpack-plugin",
     "main": "index.js",
     "scripts": {
+      "publish": "npm publish --registry=https://registry.npmjs.org"
     },
     "keywords": [
       "module-extensions",

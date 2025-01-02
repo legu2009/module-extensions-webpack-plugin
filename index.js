@@ -66,9 +66,9 @@ class ModuleExtensionsPlugin {
                 nmf.hooks.afterResolve.tap("ModuleExtensionsPlugin", result => {
                     if (extensions?.length === 0) return;
                     const createData = result.createData;
-                    if (!createData.resourceResolveData?.context) return;
+                    if (!result.contextInfo?.issuer) return;
                     let importFilePath = createData.resource;
-                    let filePath = createData.resourceResolveData.context.issuer;
+                    let filePath =  result.contextInfo.issuer;
                     if (include(importFilePath, filePath) !== true) return;
                     let ret = getResult(importFilePath, filePath, result);
                     if (!ret) return;
